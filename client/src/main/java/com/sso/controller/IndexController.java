@@ -31,6 +31,8 @@ public class IndexController {
     public String testGit() {
         System.out.println("hello");
         System.out.println("one");
+        System.out.println("two");
+
         return "test";
     }
 }
