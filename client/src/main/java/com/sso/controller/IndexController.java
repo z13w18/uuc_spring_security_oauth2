@@ -32,6 +32,7 @@ public class IndexController {
         System.out.println("hello");
         System.out.println("one");
         System.out.println("two");
+        System.out.println("three");
 
         return "test";
     }
