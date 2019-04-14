@@ -30,6 +30,7 @@ public class IndexController {
     @RequestMapping("/test")
     public String testGit() {
         System.out.println("hello");
+        System.out.println("one");
         return "test";
     }
 }
