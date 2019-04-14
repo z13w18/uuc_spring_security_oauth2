@@ -4,6 +4,8 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.xml.ws.RequestWrapper;
+
 /**
  * @author zengweicheng@qipeipu.com
  * @date 2019/4/11 17:42
@@ -22,5 +24,11 @@ public class IndexController {
     public String securedPage(OAuth2Authentication authentication) {
         System.out.println(authentication);
         return "securedPage";
+    }
+
+
+    @RequestMapping("/test")
+    public String testGit() {
+        return "test";
     }
 }
